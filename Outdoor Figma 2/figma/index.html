@@ -1,0 +1,124 @@
+<!DOCTYPE html><html><head><link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Irish+Grover&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="main.css" >
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="background">
+        <div class="background2"></div>
+      
+        
+        <div class="name"></div>
+        <div class="searchBack"></div>
+        <input type="text" placeholder="Search.." class="search">
+        <span class="logIn">Log in</span>
+        <a href="card.html" ><span class="card">Card</span> </a>
+        <span class = "mehmetc1"></span>
+        <a href=""> <span class="man">MEN </span>  </a>
+        <a href="" ><span class="woman">WOMEN </span> </a>
+        <a href=""><span class="boyz">BOYS </span> </a>
+        <a href=""><span class="equipment">EQUIPMENT </span> </a>
+        <a href="login.html"> <img src="login.png" class="cardIcon"></div> </a>
+        <img src="basket.png" class="loginIcon"></div>
+        <div class="birthday"></div>
+              <div class="truck"></div>
+                  
+        <div class="sliderBack">
+          <div id="slider">
+            <div class="slayt"><img src="logo21.jpg" /></div>
+            <div class="slayt"><img src="logo3.jpg" /></div>
+            <div class="slayt"><img src="logo4.jpg" /></div>
+            <div class="slayt"><img src="logo41.jpg" /></div>
+            <div id="kontrol">
+              <a href="javascript:oncekiSlayt()">Prev</a>
+              <a href="javascript:sonrakiSlayt()">Next</a>
+            </div>
+          </div>
+        </div>
+  <!-- Carousel wrapper -->
+       
+        <div class="realLogo"></div>
+        <div class="detail"></div>
+        <span class="wild">Wild adventure is waiting for you.</span>
+        <div class="references"></div>
+        <div class="columbia"></div>
+        <div class="quikSilver"></div>
+        <div class="northFace"></div>
+        <div class="stanley"></div>
+        <span class="referencesTitle">REFERENCES</span>
+        <span class="free">FREE SHIPPING</span>
+        <span class="birthdayTitle">BIRTHDAY BONUS</span>
+        <span class="order">Enjoy free shipping and returns on all orders
+        </span><span class="discount">Score 20% off for your birthday month
+        </span>
+        <span class="freedom">Freedom Benefits</span>
+        <span class="adventure">The adventure starts here. Join the club and reap the reward</span>
+
+                    
+                        
+                <div class="name"></div>
+                <div class="signUpBack"></div>
+                <a href="signUp.html" ><span class="signUpHtml">Sign up now</span></a>
+                <span class="phone">
+                    Phone Number
+                    
+                    </span>
+                    <span class="mail">
+                        E-Mail</span>
+                        <span class="address">
+                            Address</span>
+                        <div class="twitter"></div>
+                        <div class="youtube"></div>
+                        <div class="instagram"></div>
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <span class="feelSafe">Feel safe with the outdoor products of the beauties provided by nature.</span>
+                        <div class="name"></div>
+                        </div>
+                        </body>
+                        </html>
+
+                        <script>
+                          "use strict";
+                            var _slayt = document.getElementsByClassName("slayt");
+                            var slaytSayisi = _slayt.length;
+                            var slaytNo = 0;
+                            var i = 0;
+                          
+                            slaytGoster(slaytNo);
+                          
+                            function sonrakiSlayt() {
+                              slaytNo++;
+                              slaytGoster(slaytNo);
+                            }
+                          
+                            function oncekiSlayt() {
+                              slaytNo--;
+                              slaytGoster(slaytNo);
+                            }
+                          
+                            function slaytGoster(slaytNumarasi) {
+                              slaytNo = slaytNumarasi;
+                          
+                              if (slaytNumarasi >= slaytSayisi) slaytNo = 0;
+                          
+                              if (slaytNumarasi < 0) slaytNo = slaytSayisi - 1;
+                          
+                              for (i = 0; i < slaytSayisi; i++) {
+                                _slayt[i].style.display = "none";
+                              }
+                          
+                              _slayt[slaytNo].style.display = "block";
+                          
+                            }
+                          </script>
+ 
